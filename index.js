@@ -203,7 +203,7 @@ io.on("connection", (socket) => {
 
 // Ana route
 app.get("/", (req, res) => {
-  res.json({ message: "MERN Stack API çalışıyor" });
+  res.json({ message: "MERN Stack API çalışıyor !" });
 });
 
 // Port ayarı
